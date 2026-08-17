@@ -2,7 +2,7 @@
    ------------------------------------------------------------------
    BUILD 是快取的版本號。換過 index.html 或任何一個檔案，這一行就要改，
    否則舊的 service worker 會繼續把舊檔送給瀏覽器。 */
-const BUILD = "dw-1.9.0";
+const BUILD = "dw-1.10.0";
 const CACHE = "doodle-warehouse-" + BUILD;
 const ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",
